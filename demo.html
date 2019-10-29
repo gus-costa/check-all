@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>checkAll demo page</title>
+    <style>
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+    <main role="main" class="flex-shrink-0">
+        <div class="container">
+            <h1 class="mt-5">Sticky footer</h1>
+            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
+                CSS.</p>
+            <p>Use <a href="/docs/4.3/examples/sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need
+                be, too.</p>
+            <div class="form-check col-md-6">
+                <input class="form-check-input" type="checkbox" value="" id="check-all">
+                <label class="form-check-label" for="check-all">
+                    Default checkbox
+                </label>
+            </div>
+            <div id="check-container" class="row">
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-1">
+                    <label class="form-check-label" for="check-1">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-2">
+                    <label class="form-check-label" for="check-2">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-3">
+                    <label class="form-check-label" for="check-3">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-4">
+                    <label class="form-check-label" for="check-4">
+                        Default checkbox
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript">checkAll('#check-all', '#check-container');</script>
+</body>
+
+</html>
