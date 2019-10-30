@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en" class="h-100">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,45 +22,69 @@
         }
     </style>
 </head>
-
 <body class="d-flex flex-column h-100">
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
         <div class="container">
-            <h1 class="mt-5">Sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS.</p>
-            <p>Use <a href="/docs/4.3/examples/sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need
-                be, too.</p>
-            <div class="form-check col-md-6">
-                <input class="form-check-input" type="checkbox" value="" id="check-all">
-                <label class="form-check-label" for="check-all">
-                    Default checkbox
-                </label>
+            <h1 class="mt-5">check-all</h1>
+            <p class="lead">Torna um checkbox capaz de controlar todos os outros dentro de um elemento.</p>
+            <p>Exemplo:</p>
+            <pre>checkAll('#check-all', '#check-container');</pre>
+            <div class="row">
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-all">
+                    <label class="form-check-label" for="check-all">
+                        Todos
+                    </label>
+                </div>
             </div>
             <div id="check-container" class="row">
                 <div class="form-check col-md-6">
                     <input class="form-check-input" type="checkbox" value="" id="check-1">
                     <label class="form-check-label" for="check-1">
-                        Default checkbox
+                        PLANEJADO
                     </label>
                 </div>
                 <div class="form-check col-md-6">
                     <input class="form-check-input" type="checkbox" value="" id="check-2">
                     <label class="form-check-label" for="check-2">
-                        Default checkbox
+                        PLANEJADO AJUSTADO
                     </label>
                 </div>
                 <div class="form-check col-md-6">
                     <input class="form-check-input" type="checkbox" value="" id="check-3">
                     <label class="form-check-label" for="check-3">
-                        Default checkbox
+                        HOMOLOGAÇÃO DO AJUSTE
                     </label>
                 </div>
                 <div class="form-check col-md-6">
                     <input class="form-check-input" type="checkbox" value="" id="check-4">
                     <label class="form-check-label" for="check-4">
-                        Default checkbox
+                        REALIZADO
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-5">
+                    <label class="form-check-label" for="check-5">
+                        SITUAÇÃO
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-6">
+                    <label class="form-check-label" for="check-6">
+                        ALCANCE DA META EM %
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-7">
+                    <label class="form-check-label" for="check-7">
+                        ANÁLISE DO RESULTADO OBTIDO
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" value="" id="check-8">
+                    <label class="form-check-label" for="check-8">
+                        HOMOLOGAÇÃO DA AFERIÇÃO
                     </label>
                 </div>
             </div>
@@ -78,5 +101,4 @@
     <script src="index.js"></script>
     <script type="text/javascript">checkAll('#check-all', '#check-container');</script>
 </body>
-
 </html>
